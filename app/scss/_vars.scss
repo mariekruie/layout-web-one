@@ -1,0 +1,51 @@
+$text-color: rgb(112, 112, 112);
+$comments-color: rgb(90, 90, 90);
+$title-color: rgb(54, 56, 56);
+$yellow-color: rgb(255, 239, 53);
+$light-gray: rgb(161, 161, 161);
+$bgc-quote: rgba(223, 223, 223, 0.5);
+
+%title-font {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+%icon-position {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 0.2rem;
+  left: 0;
+  width: 1rem;
+  height: 1rem;
+}
+
+%line-element {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 10rem;
+  height: 0.1rem;
+  background-color: $title-color;
+}
+
+%timpline-dot {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 50%;
+  background-color: rgba(54, 56, 56, 1);
+}
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}
