@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Блог</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+ 
+  <div class="wrapper">
+
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+  
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="http://localhost:3000/about.html">О проекте</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="http://localhost:3000/shop.html">Магазин</a>
+              </li>
+            </ul>
+          </nav>
+  
+          <a href="http://localhost:3000/" class="logo">
+            <img src="images/logo.png" alt="logo">
+          </a>
+  
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a  class="menu__list-link menu__list-link--active" href="http://localhost:3000/blog.html">Блог</a>
+              </li>
+              <li class="menu__list-item">
+                <a  class="menu__list-link" href="http://localhost:3000/contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+  
+          <button class="header__btn">
+            <img class="header__btn-image" src="images/icons/icon-menu.svg" alt="icon menu">
+          </button>
+
+          <div class="rightside-menu rightside-menu--close">
+            <button class="rightside-menu__close">
+              <img src="images/icons/icon-close.svg" alt="close">
+            </button>
+            <div class="rightside-menu__content">
+              <a class="rightside-menu__logo" href="#">
+                <img src="images/logo-big.png" alt="logo-big">
+              </a>
+              <h4 class="rightside-menu__title">Lorem, ipsum dolor.</h4>
+              <p class="rightside-menu__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, natus?</p>
+              <img class="rightside-menu__image" src="images/content/rightside-menu.jpg" alt="menu-img">
+            </div>
+          </div> <!-- ./rightside-menu -->
+  
+        </div> <!-- ./header__inner -->
+      </div> <!-- ./container -->
+    </header> 
+
+    <main class="main">
+      
+      <div class="breadcrumbs">
+        <div class="container">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#" > Home </a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#" >About</a>
+            </li>
+          </ul>
+        </div>
+     </div> <!-- ./breadcrumbs -->
+     
+     <section class="blog">
+       <div class="container">
+         <div class="blog__inner">
+
+          <div class="blog__items">
+
+            <div class="blog__item">
+              <img class="blog__item-img" src="images/blog/3.jpg" alt="image">
+              <div class="blog__item-info">
+                <span class="blog__item-date">August 15, 2020 </span>| 
+                <a class="blog__item-author" href="#">by Ann Summers </a> |
+                <a class="blog__item-topic" href="#">Bedroom Furniture</a> 
+              </div> 
+              <a href="http://localhost:3000/blog-single.html">              
+                <h3 class="blog__item-title">
+                Red selfies edison bulb four dollar toast humblebrag for the furniture
+                </h3>
+              </a>
+              <p class="blog__item-text">
+                Everyday carry actually neutra authentic kogi shabby chic migas small batch craft beer. Literally williamsburg tote bag farm-to-table mustache ugh deep v irony. Af man bun copper mug iPhone enamel pin pug selvage hammock palo santo godard thundercats coloring book yuccie woke. Ugh pok pok taxidermy pabst enamel pin edison bulb farm-to-table.
+              </p>
+            </div> <!-- ./blog__item -->
+
+            <blockquote class="blog__quote"> “Simplicity is not the goal. It is the by-product of a good idea and modest expectations” 
+              <div class="blog__quote-author">Paul Rand</div>
+            </blockquote>
+
+            <div class="blog__item article-popup">
+              <div class="article-popup__box">
+                <img class="blog__item-img" src="images/blog/4.jpg" alt="image">
+                <a class="blog__item-popup" data-fancybox href="https://youtu.be/djx9MQyTSjE">
+                  <img class="blog__item-play" src="images/icons/play-button.svg" alt="play button"></a>
+              </div>
+              <div class="blog__item-info">
+                <span class="blog__item-date">August 15, 2020 </span>| 
+                <a class="blog__item-author" href="#">by Ann Summers </a> |
+                <a class="blog__item-topic" href="#">Bedroom Furniture</a> 
+              </div> 
+              <a href="#">
+                <h3 class="blog__item-title">
+                  Authentic kogi shabby chic
+                </h3>
+              </a>
+            </div> <!-- ./blog__item article-popup -->
+
+            <div class="blog__item article-slider">
+              <div class="article-slider__box">
+                <img class="blog__item-img" src="images/blog/5.jpg" alt="images">
+                <img class="blog__item-img" src="images/blog/6.jpg" alt="images">
+                <img class="blog__item-img" src="images/blog/7.jpg" alt="images">
+              </div>
+              <div class="blog__item-info">
+                <span class="blog__item-date">August 15, 2020 </span>| 
+                <a class="blog__item-author" href="#">by Ann Summers </a> |
+                <a class="blog__item-topic" href="#">Bedroom Furniture</a> 
+              </div> 
+              <a href="#">
+                <h3 class="blog__item-title">
+                  Semiotics fixie four dollar toast, next level woke
+                </h3>
+              </a>
+              <p class="blog__item-text">
+                Everyday carry actually neutra authentic kogi shabby chic migas small batch craft beer. Literally williamsburg tote bag farm-to-table mustache ugh deep v irony. Af man bun copper mug iPhone enamel pin pug selvage hammock palo santo godard thundercats coloring book yuccie woke. Ugh pok pok taxidermy pabst enamel pin edison bulb farm-to-table 
+              </p>
+            </div> <!-- ./blog__item article-slider -->
+
+            <div class="pagination"> 
+              <a class="pagination__arrow pagination__arrow--disabled" href="#">
+                <img class="pagination__arrow-icon" src="images/icons/arrow-left.svg" alt="arrow icon">
+              </a>
+              <ul class="pagination__list">
+                <li class="pagination__list-item">
+                  <a class="pagination__list-num pagination__list-num--active" href="#">1</a>
+                </li>
+                <li class="pagination__list-item">
+                  <a class="pagination__list-num" href="#">2</a>
+                </li>
+              </ul>
+              <a class="pagination__arrow" href="#">
+                <img class="pagination__arrow-icon" src="images/icons/arrow-right.svg" alt="arrow icon">
+              </a>
+            </div>
+
+          </div> <!-- ./blog__items -->
+
+          <aside class="aside"> 
+
+            <form class="aside__search">
+              <input class="aside__search-input" type="text" placeholder="Поиск">
+              <button class="aside__search-btn" type="submit">
+                <img class="icon" src="images/icons/icon-search.svg" alt="icon search" >
+              </button>
+            </form> <!-- ./aside__search -->
+
+            <div class="aside__category">
+              <h6 class="aside__category-title">Категории</h6>
+              <ul class="aside__category-list">
+                <li class="aside__category-item"><a class="aside__category-link" href="#">Bedroom (1)</a></li>
+                <li class="aside__category-item"><a class="aside__category-link" href="#">Living room (3)</a></li>
+                <li class="aside__category-item"><a class="aside__category-link" href="#">Office (4)</a></li>
+                <li class="aside__category-item"><a  class="aside__category-link" href="#">Dining (6)</a></li>
+                <li class="aside__category-item"><a class="aside__category-link" href="#">Chair (10)</a></li>
+              </ul>
+            </div> <!-- ./aside__category -->
+
+            <div class="recent-posts">
+              <h6 class="recent-posts__title">Недавние посты</h6>
+              <ul class="recent-posts__list">
+
+                <li class="recent-posts__item">
+                  <a class="recent-posts__item-title" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt!</a>
+                  <span class="recent-posts__date">August 10, 2020 |</span>  
+                  <a class="recent-posts__author" href="#"> by Ann Summers</a>
+                </li>
+                <li class="recent-posts__item">
+                  <a class="recent-posts__item-title" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt!</a>
+                  <span class="recent-posts__date">August 10, 2020 |</span> 
+                  <a class="recent-posts__author" href="#"> by Ann Summers</a>
+                </li>
+                <li class="recent-posts__item">
+                  <a class="recent-posts__item-title" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt!</a>
+                  <span class="recent-posts__date">August 10, 2020 |</span>
+                  <a class="recent-posts__author" href="#"> by Ann Summers</a>
+                </li>
+
+              </ul>
+            </div> <!-- ./recent-posts -->
+
+            <div class="aside__tags">
+              <h6 class="aside__tags-title">
+                Тэги
+              </h6>
+              <a class="aside__tags-link" href="#">Bedroom </a>
+              <a class="aside__tags-link" href="#">Living room</a>
+              <a class="aside__tags-link" href="#">Office</a>
+              <a class="aside__tags-link" href="#">Dining</a>
+              <a class="aside__tags-link" href="#">Chair</a>
+            </div>  <!-- ./aside__tags -->
+            
+            <ul class="aside__social">
+
+              <li class="aside__social-item">
+                <a class="aside__social-link" href="#" >
+                  <img class="aaside__social-img" src="images/icons/icon-facebook.svg" alt="icon social">
+                </a>
+              </li>
+              <li class="aside__social-item">
+                <a class="aside__social-link" href="#" >
+                  <img class="blog__social-img" src="images/icons/icon-instagram.svg" alt="icon social">
+                </a>
+              </li>
+              <li class="aside__social-item">
+                <a class="aside__social-link" href="#" >
+                  <img class="aside__social-img" src="images/icons/icon-pinterest.svg" alt="icon social">
+                </a>
+              </li>
+              <li class="aside__social-item">
+                <a class="aside__social-link" href="#" >
+                  <img class="aside__social-img" src="images/icons/icon-whatsapp.svg" alt="icon social">
+                </a>
+              </li>
+              <li class="aside__social-item">
+                <a class="aside__social-link" href="#" >
+                  <img class="aside__social-img" src="images/icons/icon-youtube.svg" alt="icon social">
+                </a>
+              </li>
+    
+            </ul> <!--aside__social -->
+
+          </aside> <!-- ./aside -->
+
+         </div> <!-- ./blog__inner -->
+       </div> <!-- ./container -->
+     </section> <!-- ./blog -->
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="container">
+          <div class="footer__inner">
+
+            <div class="footer__info">
+              <h6 class="footer__info-title">Lorem, ipsum.</h6>
+              <p class="footer__info-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sapiente ullam tempore ipsam quidem.</p>
+              <a href="mailto:example@gmail.com" class="info-email">
+                example@gmail.com
+              </a>
+              <form class="footer__form">
+                <input class="footer__form-input" type="email" placeholder="Подписаться на обновления">
+                <button class="footer__form-btn" type="submit">отправить</button>
+              </form>
+            </div>
+
+            <ul class="footer__social">
+              <li class="footer__social-item">
+                <a class="footer__social-link footer__social-link--facebook" href="#">Facebook</a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link footer__social-link--instagram" href="#">Instagram</a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link footer__social-link--pinterest" href="#">Pinterest</a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link footer__social-link--whatsapp" href="#">Whatsapp</a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link footer__social-link--youtube" href="#">Youtube</a>
+              </li>
+            </ul>
+
+            <nav class="footer__menu">
+              <ul class="footer__menu-list">
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Доставка</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">FAQ</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Помощь</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">О нас</a>
+                </li>
+              </ul>
+            </nav>
+
+          </div> <!-- ./footer__inner -->
+        </div> <!-- ./container -->
+      </div> <!-- ./footer__content -->
+
+      <div class="footer__copyright">
+        <div class="container">
+          <p>
+            674 Gonzales Drive.   Washington, PA 15301
+          </p>
+        </div>
+      </div> <!-- ./footer__copyright -->
+
+    </footer>
+
+  </div> <!-- ./wrapper -->
+
+
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

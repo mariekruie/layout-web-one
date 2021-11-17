@@ -1,6 +1,6 @@
 const { src, dest, watch, parallel, series }  = require('gulp');
 
-const scss          = require('gulp-sass');
+const scss          = require('gulp-sass')(require('sass'));
 const concat        = require('gulp-concat');
 const browserSync   = require('browser-sync').create();
 const uglify        = require('gulp-uglify-es').default;
@@ -22,19 +22,17 @@ function cleanDist() {
 
 function images() {
   return src('app/images/**/*')
-    .pipe(imagemin(
-      [
-        imagemin.gifsicle({ interlaced: true }),
-        imagemin.mozjpeg({ quality: 75, progressive: true }),
-        imagemin.optipng({ optimizationLevel: 5 }),
-        imagemin.svgo({
-          plugins: [
-            { removeViewBox: true },
-            { cleanupIDs: false }
-          ]
-        })
-      ]
-    ))
+      .pipe(imagemin([
+          imagemin.gifsicle({interlaced: true}),
+          imagemin.mozjpeg({quality: 75, progressive: true}),
+          imagemin.optipng({optimizationLevel: 5}),
+          imagemin.svgo({
+              plugins: [
+                  {removeViewBox: true},
+                  {cleanupIDs: false}
+              ]
+          })
+      ]))
     .pipe(dest('dist/images'))
 }
 

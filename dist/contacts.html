@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+ 
+  <div class="wrapper">
+
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+  
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="http://localhost:3000/about.html">О проекте</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="http://localhost:3000/shop.html">Магазин</a>
+              </li>
+            </ul>
+          </nav>
+  
+          <a href="http://localhost:3000/" class="logo">
+            <img src="images/logo.png" alt="logo">
+          </a>
+  
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a  class="menu__list-link" href="http://localhost:3000/blog.html">Блог</a>
+              </li>
+              <li class="menu__list-item">
+                <a  class="menu__list-link menu__list-link--active" href="http://localhost:3000/contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+  
+          <button class="header__btn">
+            <img class="header__btn-image" src="images/icons/icon-menu.svg" alt="icon menu">
+          </button>
+
+          <div class="rightside-menu rightside-menu--close">
+            <button class="rightside-menu__close">
+              <img src="images/icons/icon-close.svg" alt="close">
+            </button>
+            <div class="rightside-menu__content">
+              <a class="rightside-menu__logo" href="#">
+                <img src="images/logo-big.png" alt="logo-big">
+              </a>
+              <h4 class="rightside-menu__title">Lorem, ipsum dolor.</h4>
+              <p class="rightside-menu__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, natus?</p>
+              <img class="rightside-menu__image" src="images/content/rightside-menu.jpg" alt="menu-img">
+            </div>
+          </div> <!-- ./rightside-menu -->
+  
+        </div> <!-- ./header__inner -->
+      </div> <!-- ./container -->
+    </header> 
+
+    <main class="main">
+      
+      <div class="breadcrumbs">
+        <div class="container">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#" > Home </a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#" >About</a>
+            </li>
+          </ul>
+        </div>
+     </div> <!-- ./breadcrumbs -->
+
+     <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.615106670764!2d-122.41326968444776!3d37.79905897975506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580f18d8c6ea7%3A0x5d7f53fb70a3a903!2zNzI1IEdyZWVuIFN0LCBTYW4gRnJhbmNpc2NvLCBDQSA5NDEzMywg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1619529026897!5m2!1sru!2sru" width="100%" height="490" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+     </div> <!-- ./map -->
+
+     <section class="contacts">
+       <div class="container">
+
+        <h3 class="contacts__title">Связаться с нами:</h3>
+
+        <div class="contacts__content">
+          <ul class="contacts__social">
+
+            <li class="contacts__social-item">
+              <a class="contact__social-link" href="#" >
+                <img class="contact__social-img" src="images/icons/icon-facebook.svg" alt="icon social">
+              </a>
+            </li>
+            <li class="contacts__social-item">
+              <a class="contact__social-link" href="#" >
+                <img class="contact__social-img" src="images/icons/icon-instagram.svg" alt="icon social">
+              </a>
+            </li>
+            <li class="contacts__social-item">
+              <a class="contact__social-link" href="#" >
+                <img class="contact__social-img" src="images/icons/icon-pinterest.svg" alt="icon social">
+              </a>
+            </li>
+            <li class="contacts__social-item">
+              <a class="contact__social-link" href="#" >
+                <img class="contact__social-img" src="images/icons/icon-whatsapp.svg" alt="icon social">
+              </a>
+            </li>
+            <li class="contacts__social-item">
+              <a class="contact__social-link" href="#" >
+                <img class="contact__social-img" src="images/icons/icon-youtube.svg" alt="icon social">
+              </a>
+            </li>
+  
+          </ul> <!-- ./contact__social -->
+  
+          <p class="contacts__text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, architecto vel deserunt aperiam illo quam similique cupiditate praesentium. Doloribus, architecto. Sapiente, quod. Autem eius voluptatum beatae labore eum officiis expedita.</p>
+          
+          <a class="contacts__phone" href="tel:+14158297934" >(415) 829-7934</a>
+
+          <address class="contacts__address"> 725 Green St <br>
+            San Francisco, California(CA), 94133</address>
+
+          <a href="mailto:example@gmail.com" class="info-email">
+              example@gmail.com
+          </a>
+            
+          <form class="contacts__form">    
+            <input class="contacts__form-input" type="email" placeholder="Имя">  
+            <input class="contacts__form-input" type="email" placeholder="e-mail">  
+            <textarea class="contacts__form-textarea" type="text" placeholder="Ваше сообщение"></textarea>
+            <button class="contacts__form-btn" type="submit">отправить</button>
+            
+          </form>
+
+
+        </div>
+       </div> <!-- ./container -->
+     </section> <!-- ./contacts -->
+     
+     <div class="container-fluid">
+      <div class="small-slider">
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/1.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/2.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/3.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/4.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/5.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/6.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/7.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/8.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/9.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/10.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+
+        <!-- 10 more -->
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/1.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/2.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/3.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/4.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/5.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/6.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/7.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/8.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/9.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/10.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+
+
+        <!-- 10 more -->
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/1.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/2.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/3.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/4.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/5.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/6.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/7.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/8.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/9.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+        <a class="small-slider__link" href="">
+          <img class="small-slider__img" src="images/slider/10.jpg" alt="image" >
+          <p class="small-slider__title">Lorem, ipsum dolor.</p>
+        </a>
+      </div> <!-- ./small-slider -->
+    </div> <!-- ./container-fluid -->
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="container">
+          <div class="footer__inner">
+
+            <div class="footer__info">
+              <h6 class="footer__info-title">Lorem, ipsum.</h6>
+              <p class="footer__info-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sapiente ullam tempore ipsam quidem.</p>
+              <a href="mailto:example@gmail.com" class="info-email">
+                example@gmail.com
+              </a>
+              <form class="footer__form">
+                <input class="footer__form-input" type="email" placeholder="Подписаться на обновления">
+                <button class="footer__form-btn" type="submit">отправить</button>
+              </form>
+            </div>
+
+            <ul class="footer__social">
+              <li class="footer__social-item">
+                <a class="footer__social-link footer__social-link--facebook" href="#">Facebook</a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link footer__social-link--instagram" href="#">Instagram</a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link footer__social-link--pinterest" href="#">Pinterest</a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link footer__social-link--whatsapp" href="#">Whatsapp</a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link footer__social-link--youtube" href="#">Youtube</a>
+              </li>
+            </ul>
+
+            <nav class="footer__menu">
+              <ul class="footer__menu-list">
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Доставка</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">FAQ</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Помощь</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">О нас</a>
+                </li>
+              </ul>
+            </nav>
+
+          </div> <!-- ./footer__inner -->
+        </div> <!-- ./container -->
+      </div> <!-- ./footer__content -->
+
+      <div class="footer__copyright">
+        <div class="container">
+          <p>
+            674 Gonzales Drive.   Washington, PA 15301
+          </p>
+        </div>
+      </div> <!-- ./footer__copyright -->
+
+    </footer>
+
+  </div> <!-- ./wrapper -->
+
+
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
