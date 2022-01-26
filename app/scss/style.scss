@@ -168,12 +168,13 @@
   }
   &__slider-img {
     max-width: 32rem;
-    height: 39rem;
+    height: 33rem;
     margin-left: -10%;
+    margin-top: 4%;
   }
   &__slider-info {
     max-width: 40rem;
-    margin-left: 1.8rem;
+    margin-left: 4rem;
   }
   &__slider-title {
     @extend %title-font;
@@ -220,6 +221,7 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 1.875rem;
+
   &__item {
     position: relative;
     &:hover {
@@ -361,7 +363,7 @@
   .mixitup-control-active {
     opacity: 1;
     border: none;
-    background-color: rgba(#ffef35, 0.5);
+    background-color: rgba(#62b3e9, 0.5);
   }
   &__inner {
     width: 93%;
@@ -415,7 +417,8 @@
     margin: 0 1rem;
   }
   &__img {
-    object-fit: contain;
+    object-fit: cover;
+    height: 65%;
   }
   &__info {
     margin-top: 1.25rem;

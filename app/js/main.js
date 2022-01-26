@@ -12,7 +12,7 @@ $(function () {
     /* ===== Slider ===== */
 
     $('.top__slider').slick({
-        dots: true,
+        dots: false,
         arrows: false,
         fade: true,
         autoplay: true
